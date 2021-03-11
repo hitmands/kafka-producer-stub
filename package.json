@@ -1,0 +1,17 @@
+{
+  "name": "@hitmands/kafka-producer-stub",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "repository": "https://github.com/hitmands/kafka-producer-stub.git",
+  "author": "Giuseppe Mandato <gius.mand.developer@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "faker": "^5.4.0",
+    "node-rdkafka": "^2.10.1",
+    "ramda": "^0.27.1"
+  }
+}
