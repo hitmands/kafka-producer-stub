@@ -1,6 +1,6 @@
 {
   "name": "@hitmands/kafka-producer-stub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "main": "index.js",
   "repository": "https://github.com/hitmands/kafka-producer-stub.git",
