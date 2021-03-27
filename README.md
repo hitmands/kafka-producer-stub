@@ -36,7 +36,7 @@ export async function* messenger() {
   while (messages.length) {
     await sleep(1000);
 
-    const message = messages.shift();
+    const message = Buffer.from(messages.shift());
 
     // optional
     const options = { partition: null, key: null, ts: Date.now() };
