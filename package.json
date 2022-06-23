@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "faker": "^5.4.0",
-    "node-rdkafka": "^2.10.1",
+    "node-rdkafka": "^2.13.0",
     "ramda": "^0.27.1"
   }
 }

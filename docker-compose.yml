@@ -2,6 +2,7 @@ version: "3.9"
 
 services:
   kafka-producer:
+    # build: .
     image: hitmands/kafka-producer-stub:latest
     environment:
       HKPS_BROKERS: "kafka:19092"
